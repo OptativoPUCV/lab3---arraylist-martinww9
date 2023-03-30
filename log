@@ -2,3 +2,14 @@ mi., 15 de feb. de 2023 12:35:23:
  tests:  0|6
 total_score: 0/70
 7964391
+Thu 30 Mar 2023 09:52:43 PM UTC: 
+ arraylist.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:15:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘->’ token
+   15 |   void* arrayList->data = (ArrayList*) malloc(sizeof (ArrayList));
+      |                  ^~
+arraylist.c:15:18: error: expected expression before ‘->’ token
+Compilation failed
+3fb1987
